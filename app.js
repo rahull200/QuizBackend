@@ -11,7 +11,6 @@ const person = [
     {id:'4',question:'What is the capital of Karnataka ?',answer:'Banglore',op1:'Banglore',op2:'Panjim',op3:'Delhi',op4:'Mumbai'},
 	{id:'5',question:'What is the capital of Madhya Pradesh ?',answer:'Bhopal',op1:'Kashmir',op2:'Gangtok',op3:'Delhi',op4:'Bhopal'},
 	{id:'6',question:'What is the capital of Orissa ?',answer:'Bhubaneshwar',op1:'Kashmir',op2:'Bhubaneshwar',op3:'Bhopal',op4:'Bangalore'},
-	{id:'6',question:'What is the capital of Orissa ?',answer:'Bhubaneshwar',op1:'Kashmir',op2:'Bhubaneshwar',op3:'Bhopal',op4:'Bangalore'},
 	{id:'7',question:'What is the capital of Assam ?',answer:'Dispur',op1:'Shimla',op2:'Bhubaneshwar',op3:'Bhopal',op4:'Dispur'},
 	{id:'8',question:'What is the capital of Meghalaya ?',answer:'Shillong',op1:'Shimla',op2:'Shillong',op3:'Delhi',op4:'Ranchi'},
 	{id:'9',question:'What is the capital of Manipur ?',answer:'Imphal',op1:'Bhopal',op2:'Imphal',op3:'Goa',op4:'Ranchi'},
