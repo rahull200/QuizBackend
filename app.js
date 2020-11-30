@@ -11,7 +11,7 @@ const person = [
     {id:'4',question:'What is the capital of Karnataka ?',answer:'Banglore',op1:'Banglore',op2:'Panjim',op3:'Delhi',op4:'Mumbai'},
 ]
 
-app.get('/',(req,res)=>{
+app.get('https://secure-badlands-08499.herokuapp.com/',(req,res)=>{
     const data = prettier.format(JSON.stringify(person),{ semi: false, parser: "json" })
     res.send(data);
 })
