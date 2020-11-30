@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const prettier = require("prettier");
 
-const port = 5000;
+const port = 3000;
 
 const person = [
     {id:'1',question:'What is the capital of India ?',answer:'Delhi',op1:'Maharashtra',op2:'Panjim',op3:'Delhi',op4:'Kerala'},
