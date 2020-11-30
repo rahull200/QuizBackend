@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const prettier = require("prettier");
 
-const hostname = '127.0.0.1';
 const port = 5000;
 
 const person = [
@@ -17,6 +16,6 @@ app.get('/',(req,res)=>{
     res.send(data);
 })
 
-app.listen(port, hostname, () => {
-  console.log('Server running at port '+port);
+app.listen(port,function(){
+	console.log("Server running at port 5000");
 });
