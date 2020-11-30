@@ -17,7 +17,7 @@ const person = [
 	{id:'10',question:'What is the capital of Gujarat ?',answer:'Gandhinagar',op1:'Goa',op2:'Shillong',op3:'Gandhinagar',op4:'Ranchi'},
 	{id:'11',question:'What is the capital of Rajhasthan ?',answer:'Jaipur',op1:'Manipur',op2:'Udaipur',op3:'Delhi',op4:'Jaipur'},
 	{id:'12',question:'What is the capital of Tamil Nadu?',answer:'Chennai',op1:'Shimla',op2:'Chennai',op3:'Goa',op4:'Delhi'},
-	{id:'13',question:'What is the capital of Meghalaya ?',answer:'Shillong',op1:'Shimla',op2:'Shillong',op3:'Delhi',op4:'Ranchi'},
+	{id:'13',question:'What is the capital of Telangana ?',answer:'Hyderabad',op1:'Hyderabad',op2:'Shillong',op3:'Delhi',op4:'Ranchi'},
 	{id:'14',question:'What is the capital of Kerala ?',answer:'Tiruvananthpuram',op1:'Goa',op2:'Tiruvananthpuram',op3:'Mumbai',op4:'Panjim'},
 	{id:'15',question:'What is the capital of China ?',answer:'Beijing',op1:'Islamabad',op2:'Beijing',op3:'Delhi',op4:'Tokyo'},
 	{id:'16',question:'What is the capital of Japan ?',answer:'Tokyo',op1:'Delhi',op2:'Tokyo',op3:'Iraq',op4:'Beijing'},
