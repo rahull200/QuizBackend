@@ -112,17 +112,17 @@ app.get('/',(req,res)=>{
 })
 
 app.get('/multiplayer',(req,res)=>{
-    const data = prettier.format(JSON.stringify(placesqts),{ semi: false, parser: "json" })
+    const data = prettier.format(JSON.stringify(multiplayerqts),{ semi: false, parser: "json" })
     res.send(data);
 })
 
 app.get('/sports',(req,res)=>{
-    const data = prettier.format(JSON.stringify(placesqts),{ semi: false, parser: "json" })
+    const data = prettier.format(JSON.stringify(sportsqts),{ semi: false, parser: "json" })
     res.send(data);
 })
 
 app.get('/gk',(req,res)=>{
-    const data = prettier.format(JSON.stringify(placesqts),{ semi: false, parser: "json" })
+    const data = prettier.format(JSON.stringify(gkqts),{ semi: false, parser: "json" })
     res.send(data);
 })
 
