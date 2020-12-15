@@ -32,6 +32,21 @@ const person = [
 	{id:'25',question:'Shanghai city is located in ?',answer:'China',op1:'Japan',op2:'China',op3:'Iran',op4:'Iraq'},
 ]
 
+
+const randomqts = [
+    {id:'1',question:'What is the capital of India ?',answer:'Delhi',op1:'Maharashtra',op2:'Panjim',op3:'Delhi',op4:'Kerala'},
+    {id:'2',question:'Symbol Red Cross signifies..',answer:'Sign of Danger',op1:'Civilization',op2:'Faith',op3:'Protection',op4:'Sign of Danger'},
+    {id:'3',question:'Who was the first person who entered into space?',answer:'Neil Armstrong',op1:'William Lundigan',op2:'Yuri Gagarin',op3:'Neil Armstrong',op4:'Edward McCauley'},
+	{id:'4',question:'Which planet among these is the Earths Twin?',answer:'Venus',op1:'Venus',op2:'Mercury',op3:'Jupiter',op4:'Mars'},
+	{id:'5',question:'The classical dance Nautanki belongs to?',answer:'Uttar pradesh',op1:'Jaipur',op2:'MP',op3:'Uttar pradesh',op4:'Goa'},
+	{id:'6',question:'Atacama Desert is located in ?',answer:'South America',op1:'Australia',op2:'North America',op3:'South America',op4:'Africa'},
+	{id:'7',question:'Which is the National game of China?',answer:'Table Tennis',op1:'Hockey',op2:'Baseball',op3:'Table Tennis',op4:'Football'},
+	{id:'8',question:'Which planet is known as the blue planet?',answer:'Earth',op1:'Mars',op2:'Earth',op3:'Saturn',op4:'Venus'},
+	{id:'9',question:'Where is Taj Mahal Located ?',answer:'India',op1:'Pakisthan',op2:'China',op3:'Sri Lanka',op4:'India'},
+	{id:'10',question:'Where is Shanghai city Located ?',answer:'China',op1:'Pakisthan',op2:'China',op3:'Sri Lanka',op4:'India'},
+]
+
+
 app.get('/',(req,res)=>{
     const data = prettier.format(JSON.stringify(person),{ semi: false, parser: "json" })
     res.send(data);
