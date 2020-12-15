@@ -107,7 +107,22 @@ const gkqts = [
 
 
 app.get('/',(req,res)=>{
-    const data = prettier.format(JSON.stringify(person),{ semi: false, parser: "json" })
+    const data = prettier.format(JSON.stringify(placesqts),{ semi: false, parser: "json" })
+    res.send(data);
+})
+
+app.get('/multiplayer',(req,res)=>{
+    const data = prettier.format(JSON.stringify(placesqts),{ semi: false, parser: "json" })
+    res.send(data);
+})
+
+app.get('/sports',(req,res)=>{
+    const data = prettier.format(JSON.stringify(placesqts),{ semi: false, parser: "json" })
+    res.send(data);
+})
+
+app.get('/gk',(req,res)=>{
+    const data = prettier.format(JSON.stringify(placesqts),{ semi: false, parser: "json" })
     res.send(data);
 })
 
