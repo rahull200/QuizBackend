@@ -76,6 +76,34 @@ const sportsqts = [
 ]
 
 
+const gkqts = [
+    {id:'1',question:'The purest form of iron is?',answer:'Wrought iron',op1:'Wrought iron',op2:'Steel',op3:'Pig iron',op4:'Nickel steel'},
+    {id:'2',question:'Fathometer is used to measure?',answer:'Ocean Depth',op1:'Earthquake',op2:'Rainfall',op3:'Ocean Depth',op4:'Tsunami'},
+    {id:'3',question:'Which of the following is not written by Munshi Premchand?',answer:'Guide',op1:'Godan',op2:'Guide',op3:'Gaban',op4:'Manasorovar'},
+    {id:'4',question:'Which of the books is written by Kapil Dev?',answer:'Cricket - My Style',op1:'One day Wonders',op2:'Cricket-Favourite Game',op3:'Cricket-Favourite Game',op4:'Cricket - My Style'},
+	{id:'5',question:'Which of the following has no Skeleton at all?',answer:'Jelly fish',op1:'Jelly fish',op2:'Star fish',op3:'Sponge',op4:'Silver fish'},
+	{id:'6',question:'Which animal has the worst memory?',answer:'Elephant',op1:'Dolphin',op2:'Rat',op3:'Elephant',op4:'Cat'},
+	{id:'7',question:'In which of the following kinds of organism is the phenomenon found wherein the female kills the male after copulation?',answer:'Honeybee',op1:' Pit viper',op2:'Honeybee',op3:'Dragonfly',op4:'Spider'},
+	{id:'8',question:'Which kind of power accounts for the largest share of power generation in India?',answer:'Thermal',op1:'Solar',op2:'Hydro-electricity',op3:'Thermsl',op4:'Nuclear'},
+	{id:'9',question:'Who had estimate National Income in India first?',answer:'Dadabhai Naoroji',op1:'Dadabhai Naoroji',op2:'R.C.Dutt',op3:'D.R.Dutt',op4:'D.R.Gadgil'},
+	{id:'10',question:'The minimum forest cover to maintain ecological balance in the plains is?',answer:'33%',op1:'51%',op2:'45%',op3:'33%',op4:'55%'},
+	{id:'11',question:'First tuesday of may is observed as?',answer:'World Asthma Day',op1:'World Immunization Day',op2:'Global family Day',op3:'World Asthma Day',op4:'International Human Solidarity Day'},
+	{id:'12',question:'Journalists Day was celebrated for the first time all over the country on?',answer:'Oct 28,1984',op1:'Oct 29,1984',op2:'Oct 18,1984',op3:'Oct 28,1984',op4:'Oct 17,1984'},
+	{id:'13',question:'World Blood Donar Day is observed on?',answer:'14 - June',op1:'16 - June',op2:'14 - June',op3:'19 - June',op4:'10 - June'},
+	{id:'14',question:'The blue colour of the clear sky is due to?',answer:'Dispersion of light',op1:'Refraction of light',op2:'Dispersion of light',op3:'Reflection of light',op4:'Diffraction of light'},
+	{id:'15',question:'As you go down into a well, your weight...',answer:'decreases slightly',op1:'decreases rapidly',op2:'remains same',op3:'increases slightly',op4:'decreases slightly'},
+	{id:'16',question:'In fireworks, the green flame is produced because of?',answer:'Barium',op1:'Sodium',op2:'Barium',op3:'Potassium',op4:'Calcium'},
+	{id:'17',question:'What color does yellow and green make?',answer:'Lime',op1:'Lime',op2:'Blue',op3:'Ocean mist',op4:'Maroon'},
+	{id:'18',question:'What does airbag, used for safety of car driver, contain?',answer:'Sodium azide',op1:'India',op2:'Sodium nitrite',op3:'Sodium azide',op4:'None of the above'},
+	{id:'19',question:'Which of the following has got more heat capacity?',answer:'Water',op1:'Benzene',op2:'Gold piece',op3:'Iron piece',op4:'Water'},
+	{id:'20',question:'Which one of the following types of laser is used in laser printers?',answer:'Semiconductor laser',op1:'Dye laser',op2:'Semiconductor laser',op3:'Excimer laser',op4:'Gas laser'},
+	{id:'21',question:'The human heart is..',answer:'Myogenic heart',op1:'Pulsating heart',op2:'Ampullary heart',op3:'Myogenic heart',op4:'Neurogenic heart'},
+	{id:'22',question:'Animal without red blood cells is',answer:'Earthworm',op1:'Snake',op2:'Earthworm',op3:'Snail',op4:'Frog'},
+	{id:'23',question:'Which of the following is an Autotroph?',answer:'Algae',op1:'Algae',op2:'Fish',op3:'Butterfly',op4:'Worm'},
+	{id:'24',question:'Botany is also known as',answer:'Phytology',op1:'Plantophyta',op2:'Phytology',op3:'Pedology',op4:'Phycology'},
+	{id:'25',question:'The year 1995 is the golden Jubilee year of which of the following International Organisations',answer:'Lt.Gen H.M.Ershad',op1:'Lt.Gen H.M.Ershad',op2:'Mrs.Indira Gandhi',op3:'King Birendra',op4:'Mr. Zia ur Rehman'},
+]
+
 
 
 app.get('/',(req,res)=>{
