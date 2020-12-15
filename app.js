@@ -4,7 +4,7 @@ const prettier = require("prettier");
 
 const port = 5000;
 
-const person = [
+const placesqts = [
     {id:'1',question:'What is the capital of India ?',answer:'Delhi',op1:'Maharashtra',op2:'Panjim',op3:'Delhi',op4:'Kerala'},
     {id:'2',question:'What is the capital of Maharashtra ?',answer:'Mumbai',op1:'Goa',op2:'Panjim',op3:'Delhi',op4:'Mumbai'},
     {id:'3',question:'What is the capital of Goa ?',answer:'Panjim',op1:'Maharashtra',op2:'Panjim',op3:'Delhi',op4:'Kerala'},
@@ -33,7 +33,7 @@ const person = [
 ]
 
 
-const randomqts = [
+const multiplayerqts = [
     {id:'1',question:'What is the capital of India ?',answer:'Delhi',op1:'Maharashtra',op2:'Panjim',op3:'Delhi',op4:'Kerala'},
     {id:'2',question:'Symbol Red Cross signifies..',answer:'Sign of Danger',op1:'Civilization',op2:'Faith',op3:'Protection',op4:'Sign of Danger'},
     {id:'3',question:'Who was the first person who entered into space?',answer:'Neil Armstrong',op1:'William Lundigan',op2:'Yuri Gagarin',op3:'Neil Armstrong',op4:'Edward McCauley'},
