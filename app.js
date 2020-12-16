@@ -44,6 +44,7 @@ const multiplayerqts = [
 	{id:'8',question:'Which planet is known as the blue planet?',answer:'Earth',op1:'Mars',op2:'Earth',op3:'Saturn',op4:'Venus'},
 	{id:'9',question:'Who is the first Indian woman to win an Asian Games gold in 400m run?',answer:'P.T usha',op1:'P.T usha',op2:'K.Malleshwari',op3:'M.L. Valsamma',op4:'Kamaljit Sandhu'},
 	{id:'10',question:'With which game does Davis Cup is associated?',answer:'Lawn Tennis',op1:'Hockey',op2:'Lawn Tennis',op3:'Polo',op4:'Table Tennis'},
+	{id:'11',question:'With which game does Davis Cup is associated?',answer:'Lawn Tennis',op1:'Hockey',op2:'Lawn Tennis',op3:'Polo',op4:'Table Tennis'},
 ]
 
 
